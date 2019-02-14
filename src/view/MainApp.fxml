@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: transparent;" stylesheets="@../CSS/dark-Theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainAppController">
+   <children>
+      <AnchorPane fx:id="TopBar" prefHeight="97.0" prefWidth="1200.0" style="-fx-background-color: #2A2E37;">
+         <children>
+            <JFXButton fx:id="btnProdutos" layoutX="31.0" layoutY="26.0" prefHeight="45.0" prefWidth="154.0" styleClass="loginBlue-button" text="Produtos" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnCadastros" layoutX="197.0" layoutY="26.0" prefHeight="45.0" prefWidth="154.0" styleClass="loginBlue-button" text="Cadastros" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnEstoque" layoutX="366.0" layoutY="26.0" prefHeight="45.0" prefWidth="154.0" styleClass="loginBlue-button" text="Estoque" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="793.0" layoutY="34.0" text="Bem vindo" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblUsuario" layoutX="905.0" layoutY="34.0" prefHeight="30.0" prefWidth="114.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnSair" layoutX="1104.0" layoutY="17.0" prefHeight="65.0" prefWidth="82.0" styleClass="loginRed-button" text=" ">
+               <graphic>
+                  <ImageView fitHeight="58.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/icons8-desligar-96.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children></AnchorPane>
+      <AnchorPane fx:id="Cadastros" layoutY="113.0" prefHeight="577.0" prefWidth="1200.0" style="-fx-background-color: #2A2E37;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXButton fx:id="btnFecharCad" layoutX="1109.0" layoutY="14.0" styleClass="loginRed-button" text="Fechar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Estoque" layoutX="10.0" layoutY="123.0" prefHeight="577.0" prefWidth="1200.0" style="-fx-background-color: #2A2E37;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXButton fx:id="btnFecharEstoq" layoutX="1109.0" layoutY="14.0" styleClass="loginRed-button" text="Fechar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Produtos" layoutX="10.0" layoutY="123.0" prefHeight="577.0" prefWidth="1200.0" style="-fx-background-color: #2A2E37;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXButton fx:id="btnFecharProd" layoutX="1109.0" layoutY="14.0" styleClass="loginRed-button" text="Fechar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+
+/* Muda a cor da anchor panel */
+*{
+    -fx-primary: #2A2E37;
+    -fx-secondary: #32CD32;
+    -fx-primarytext: #B2B2B2;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+.glyph-icon{
+    -fx-fill: -fx-primarytext;
+}
+
+.button{
+    -fx-fill: -fx-secondary;
+}
+
+.login-button{
+    
+}
+
+.loginBlue-button:hover{
+    -fx-background-color:  #4169E1;
+}
+.logingreen-button:hover{
+    -fx-background-color:  #32CD32;
+}
+
+.loginRed-button:hover{
+    -fx-background-color:  #B22222;
+}
+/* Muda a cor do texto do prompt text da textfield do JFXFOENIX*/
+.text-field{
+    -fx-text-fill: #4169E1;
+    -fx-font-size: 13pt;
+    -jfx-focus-color: #4169E1;
+    -fx-prompt-text-fill: #B2B2B2;
+}
+
