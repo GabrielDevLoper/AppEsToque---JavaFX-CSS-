@@ -34,11 +34,7 @@ public class MainApp extends Application {
     public MainApp(Usuario user1) {
         MainAppController.setUser2(user1);
     }
-   
-   
-   
-    
-    
+        
     @Override
     public void start(Stage stage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("/view/MainApp.fxml"));//carrega a tela criada em fxml

@@ -61,8 +61,8 @@ public class MainAppController implements Initializable {
       Cadastros.setVisible(false);
       Estoque.setVisible(false);
         
-        btnSair.setOnMouseClicked(((event) -> {
-            CloseMainScreen();
+     btnSair.setOnMouseClicked(((event) -> {
+        CloseMainScreen();
       })); 
       btnFecharProd.setOnMouseClicked(((event) -> {
           Produtos.setVisible(false);
